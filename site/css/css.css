@@ -1,6 +1,11 @@
+body{
+	background-color: silver;
+}
 h1{
 	text-align: center;
 	font-family: georgia;
+	margin-bottom: 65px;
+	margin-top: 10px;
 }
 .row{
 	width: 100%;
@@ -12,7 +17,7 @@ h1{
 }
 h3{
 	border:1px solid black;
-	border-width: 1px;
+	border-width: 2px;
 	margin-top: 0px;
 	background-color: #001052;
 	color: white;
