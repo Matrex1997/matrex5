@@ -1,0 +1,103 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #778899;
+  font-family: trebuchet ms, sans-serif;
+}
+#header-nav {
+  background-color: #191970;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Merienda', cursive;  
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+h1{
+  font-family: 'Audiowide', cursive;
+}
+#nav-list {
+  margin-top: 1px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  color: black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1.5px solid white;
+}
+/*SECTIONS*/
+#sections{
+  padding: auto;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.row{
+  width: 100%;
+  margin-right: 15px;
+  margin-left: 0px;
+  padding: auto;
+}
+section {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 20px;
+  position: relative;
+  background-color: tomato;
+  float: left;
+}
+section>div>h3{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  font-size: 1.2em;
+}
+section>div>p{
+  color: black;
+  padding:5px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 1em;
+}
+.container-fluid{
+  content: center;
+  padding: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+@media(min-width: 768px)and (max-width: 992px){
+  .col-sm-6:nth-child(3){
+    width: 100%
+  }
+}
+#chicken{
+  background-color: #FF7F50;
+}
+#beef{
+  background-color: #DC143C;
+}
+#sushi{
+  background-color: #FFA500;
+}
+.end{
+  width: 50%
+  margin-left:10px;
+  margin-right: 10px;
+  color: #191970;
+  font-weight: bold;
+}
